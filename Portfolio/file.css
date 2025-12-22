@@ -17,7 +17,7 @@ body{
   padding:20px 80px;
   position:sticky;
   top:0;
-  z-index:9999;
+  z-index: 9999;
   background:rgba(0,0,0,0.7);
   backdrop-filter:blur(10px);
 }
@@ -497,5 +497,4 @@ footer span{
     padding: 120px 18%;
   }
 }
-
 
