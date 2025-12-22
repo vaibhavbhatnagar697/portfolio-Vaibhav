@@ -14,9 +14,10 @@ body{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  position:relative;
+  position:sticky;
   padding:20px 80px;
   top:0;
+  z-index:1000;
   background:rgba(0,0,0,0.7);
   backdrop-filter:blur(10px);
 }
@@ -496,6 +497,7 @@ footer span{
     padding: 120px 18%;
   }
 }
+
 
 
 
