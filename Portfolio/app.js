@@ -56,7 +56,7 @@ btn.addEventListener('click',(e)=> {
     contact.style.display="none"
     connect_page.style.display="flex"
 
-    window.screenY="0"
+    window.scrollY="0"
 })
 
 const homebtn=document.querySelector(".home-btn");
@@ -69,4 +69,5 @@ homebtn.addEventListener('click',(e)=> {
     contact.style.display="grid"
     connect_page.style.display="none"
 })
+
 
