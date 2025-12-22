@@ -364,14 +364,6 @@ footer span{
   font-size: 15px;
 }
 
-@media (max-width:380px) {
-  nav .btn {
-    margin-top: 15px;
-    position: relative;
-    left: 78px;
-  }
-}
-
 /* =====================================
    MOBILE PHONES (max-width: 480px)
 ===================================== */
@@ -381,6 +373,11 @@ footer span{
     padding: 15px 20px;
     flex-direction: column;
     gap: 12px;
+  }
+  nav .btn {
+    margin-top: 15px;
+    position: relative;
+    left: 78px;
   }
 
   nav button {
@@ -514,4 +511,5 @@ footer span{
     padding: 120px 18%;
   }
 }
+
 
