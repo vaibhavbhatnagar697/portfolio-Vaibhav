@@ -6,8 +6,7 @@
 }
 html {
   scroll-behavior: smooth;
-}
-
+} 
 body{
   background:#0b0b0b;
   color:white;
@@ -365,6 +364,13 @@ footer span{
   font-size: 15px;
 }
 
+@media (max-width:380px) {
+  nav .btn {
+    margin-top: 15px;
+    position: relative;
+    left: 78px;
+  }
+}
 
 /* =====================================
    MOBILE PHONES (max-width: 480px)
@@ -378,8 +384,9 @@ footer span{
   }
 
   nav button {
-    margin-left: 10px;
-    font-size: 13px;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 16px;
   }
 
   .hero {
@@ -429,6 +436,13 @@ footer span{
     padding: 14px 24px;
   }
 }
+
+@media (max-width:575px) {
+  .logo {
+    display: none;
+  }
+}
+
 
 /* =====================================
    TABLETS (max-width: 768px)
@@ -500,5 +514,4 @@ footer span{
     padding: 120px 18%;
   }
 }
-
 
